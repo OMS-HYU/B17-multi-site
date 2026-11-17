@@ -1,0 +1,21 @@
+{
+  "scope": "Archived record, not current protocol",
+  "original_record": {
+    "stage": "fixed_pair",
+    "mode": "plain",
+    "waves": [
+      550.0,
+      552.0
+    ],
+    "powers": [
+      0.634950196113516,
+      0.32461204140883915
+    ],
+    "l2": 0.04370668997369686,
+    "rmse": [
+      1.2010083234850235,
+      1.4380861844106263
+    ]
+  },
+  "source_file_sha256": "ad535fb0d36783728c1b9c4372877a81bac59313c128162a8d84dfa00761b8c5"
+}

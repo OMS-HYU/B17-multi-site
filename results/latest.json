@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "research": "multi",
+  "updated_at": "2026-11-17T16:40:27.996012+00:00",
+  "site_url": "https://oms-hyu.github.io/B17-multi-site/",
+  "protocol_version": "publication-v1",
+  "counts": {
+    "current_inverse_verified": 0,
+    "archived_records": 1,
+    "current_unverified": 1
+  },
+  "experiments": [
+    {
+      "research": "multi",
+      "experiment_id": "archive-k2-fixed-pair-550-552",
+      "wavelengths_nm": [
+        550.0,
+        552.0
+      ],
+      "mode": "Known fixed pair",
+      "b17_optics": null,
+      "algorithm": "Historical fixed_pair / plain; archived reduced validation",
+      "iterations_completed": null,
+      "circular_rmse_rad": null,
+      "linear_rmse_rad": null,
+      "sensor_l2": 0.04370668997369686,
+      "status": "archived_unverified",
+      "forward_status": "unverified",
+      "inverse_status": "unverified",
+      "image_url": "https://oms-hyu.github.io/B17-multi-site/images/final/archive-k2-phase-errors-c4586ce5af74d136.png",
+      "image_sha256": "c4586ce5af74d136450e0cb8e5958f14d3f372da97b46c62a2c3aa22c10078d4",
+      "evaluation_url": "https://oms-hyu.github.io/B17-multi-site/results/evaluations/archive-k2-fixed-pair.json",
+      "evaluation_sha256": "dd82c68dfe071f554f438def2c6907cacf439c706abe7b62bb12fad46b76e460",
+      "input_hashes": null,
+      "checkpoint_sha256": null,
+      "code_commit": "a976f9bbf38dda4da7b2f71be46c0bc5277fe2a8",
+      "code_sha256": null,
+      "protocol_version": "Branch_A_V71-archive",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "per_wavelength_phase_rmse_rad": [
+        1.2010083234850235,
+        1.4380861844106263
+      ],
+      "verification": "Archived record only. Current K2–3 joint wavelength and phase inverse remains unverified. Geometry/iterations not independently recovered for this record."
+    },
+    {
+      "research": "multi",
+      "experiment_id": "current-k2-k3-inverse",
+      "wavelengths_nm": null,
+      "mode": null,
+      "b17_optics": null,
+      "algorithm": "Forward available; inverse not verified",
+      "iterations_completed": null,
+      "circular_rmse_rad": null,
+      "linear_rmse_rad": null,
+      "sensor_l2": null,
+      "status": "unverified",
+      "forward_status": "unverified",
+      "inverse_status": "unverified",
+      "image_url": null,
+      "image_sha256": null,
+      "evaluation_url": null,
+      "evaluation_sha256": null,
+      "input_hashes": null,
+      "checkpoint_sha256": null,
+      "code_commit": null,
+      "code_sha256": null,
+      "protocol_version": "current-foundation",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "verification": "No current inverse output in research results folder."
+    }
+  ],
+  "privacy": "Only public figures and sanitized evaluations. No raw truth arrays, sensors, optimizer or credentials.",
+  "current_protocol_note": "Current inverse unverified; archives are not current validation."
+}
